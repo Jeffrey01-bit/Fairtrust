@@ -1,0 +1,253 @@
+* {
+  position: relative;
+  font-family: Roboto;
+}
+
+.image {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+.first h2 {
+  left: 80px;
+  top: 10px;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 20px;
+  font-family: Roboto;
+  letter-spacing: 0.15px;
+}
+.search {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  left: 315px;
+  top: 23px;
+}
+.first form input {
+  left: 350px;
+  top: 30px;
+  border: none;
+  position: absolute;
+  color: #8e8e93;
+  font-size: 14px;
+  font-family: Roboto;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+
+.second h1 {
+  left: 40px;
+  top: 70px;
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  font-family: Roboto;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+}
+.second img {
+  top: 75px;
+  left: 160px;
+  padding: 5px;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+}
+.name {
+  top: 90px;
+  left: 40px;
+  line-height: 5%;
+}
+.name form input {
+  border: none;
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 370px;
+  border-radius: 4px;
+}
+.practice {
+  top: 110px;
+  left: 40px;
+  line-height: 5%;
+}
+.practice form input {
+  border: none;
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 180px;
+  border-radius: 4px;
+}
+.branch {
+  top: 40px;
+  left: 230px;
+  line-height: 5%;
+}
+.branch select {
+  border: none;
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 180px;
+  border-radius: 4px;
+}
+.division {
+  top: 60px;
+  left: 40px;
+  line-height: 5%;
+}
+.division form input {
+  border: none;
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 370px;
+  border-radius: 4px;
+}
+.login {
+  top: 80px;
+  left: 40px;
+  line-height: 5%;
+}
+.login form input {
+  border: none;
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 370px;
+  border-radius: 4px;
+}
+.Col2 {
+  top: -335px;
+  left: 410px;
+}
+.title {
+  top: 80px;
+  left: 40px;
+  line-height: 5%;
+}
+.title form input {
+  border: none;
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 370px;
+  border-radius: 4px;
+}
+.contract {
+  top: 100px;
+  left: 40px;
+  line-height: 5%;
+}
+.contract form input {
+  border: none;
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 180px;
+  border-radius: 4px;
+}
+.grade {
+  top: 32px;
+  left: 230px;
+  line-height: 5%;
+}
+.grade form input {
+  border: none;
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 180px;
+  border-radius: 4px;
+}
+.divisionmanager {
+  top: 52px;
+  left: 40px;
+  line-height: 5%;
+}
+.divisionmanager form input {
+  border: none;
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 370px;
+  border-radius: 4px;
+}
+.status {
+  top: 72px;
+  left: 40px;
+  line-height: 5%;
+}
+.status form input {
+  border: none;
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 180px;
+  border-radius: 4px;
+}
+.date {
+  top: 20px;
+  left: 230px;
+  line-height: 5%;
+}
+.date form input {
+  border: none;
+  background-color: #f1f1f1;
+  padding: 10px;
+  width: 180px;
+  border-radius: 4px;
+}
+.Col3 {
+  bottom: 365px;
+  position: absolute;
+  left: 700px;
+  display: flex;
+  flex-direction: column;
+}
+#profilepic {
+  height: 200px;
+  border-radius: 50%;
+}
+.edit {
+  left: 160px;
+  top: 60px;
+}
+.edit h4 {
+  font-size: large;
+}
+.edit p {
+  bottom: 20px;
+  color: #8e8e93;
+}
+.icons {
+  bottom: 40px;
+  width: 150px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 20px;
+  top: 50px;
+  left: 160px;
+  border-radius: 10px;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  left: 20px;
+}
+
+.icon-text img {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.icon-text span {
+  font-size: 16px;
+}
+.pics {
+  bottom: 75px;
+  right: 160px;
+}

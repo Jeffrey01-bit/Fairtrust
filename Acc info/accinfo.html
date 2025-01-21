@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings Page</title>
+    <link rel="stylesheet" href="accinfo.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="C:\Users\jeffrey\Documents\VS Codes\Admin Notification\Group 14582626.png" alt="Band Logo"
+                class="logo">
+        </div>
+
+        <nav>
+            <ul class="top">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Plans</a></li>
+                <li><a href="#">Help</a></li>
+                <li><button class="btn">Back to Homepage</button></li>
+                <li><img src="C:\Users\jeffrey\Documents\VS Codes\Admin Notification\Notification icon.png"></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+
+            <ul class="menu">
+                <li>Dashboard</li>
+                <li>Users</li>
+                <li>jobs</li>
+                <li>Content moderation</li>
+                <li>Notification</li>
+                <li>Report</li>
+                <li class="active">Settings</li>
+            </ul>
+        </aside>
+        <div class="settings-container">
+            <h1>Account Information</h1>
+            <div class="section">
+                <p class="warning">You haven't verified your email! <a href="#">Verify your email.</a></p>
+                <label for="adobe-id">Adobe ID <p> | <a href="#"> Edit this Adobe ID on Adobe.com</a></p></label>
+                <input type="text" id="adobe-id" placeholder="hello@designdrops.io">
+                <label for="behance-url">Behance URL <p> | <a href="#">Edit</a></p></label>
+                <input type="text" id="behance-url" placeholder="https://www.behance.net/thegriffster">
+
+                <div class="checkbox-group">
+                    <label><input type="checkbox"> Block mature content in the Behance gallery</label>
+                    <label><input type="checkbox"> Opt out of recommendations based on my project views</label>
+                    <label><input type="checkbox"> Opt out of showing EXIF data on my images</label>
+                    <label><input type="checkbox"> Don't allow search engines to index my profile</label>
+                    <p><span style="font-weight: bold;">Note: </span>Your changes will not take effect until search
+                        engines
+                        reindex.<a href="#">Learn More</a></p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h1>Switch Adobe IDS</h1>
+                <p>Your Adobe ID is what you'll use to sign in to your Behance account. If you have a different Adobe ID
+                    that you'd like to associate with your account, use the link below.</p>
+                <a href="#">Use a different Adobe ID</a>
+            </div>
+
+            <h1>Privacy & Display</h1>
+            <div class="section">
+                <p>Users who can message you directly:</p>
+                <label><input type="radio" name="message-permission"> Anyone</label>
+                <label><input type="radio" name="message-permission"> Only People You Follow</label>
+                <label><input type="radio" name="message-permission"> No One</label>
+
+                <p>Users who can tag you in a comment:</p>
+                <label><input type="radio" name="tag-permission"> Anyone</label>
+                <label><input type="radio" name="tag-permission"> Only People You Follow</label>
+                <label><input type="radio" name="tag-permission"> No One</label>
+            </div>
+
+            <h1>Email Notifications</h1>
+            <label type="checkbox"> Notification Summary</label>
+            <div class="section">
+                <p>Receive an email summary of notifications instead of individual emails</p>
+                <div class="radio-group">
+                    <label><input type="radio"> On</label>
+                    <label><input type="radio"> Off</label>
+                </div>
+            </div>
+
+
+            <div class="section">
+                <p><strong>Network Activity</strong><span style="font-style: italic;"> Email me
+                        a
+                        summary of:</span></p>
+                <label><input type="checkbox"> New Activity on projects and moodboards by my network</label>
+            </div>
+
+
+            <div class="section">
+                <p><strong>Actionable Email Notification</strong><span style="font-style: italic;"> Email me immediately
+                        when someone:</span></p>
+                <div class="checkbox-group">
+                    <label><input type="checkbox"> Invites me to co-own a project</label>
+                    <label><input type="checkbox"> Invites me to co-own a moodboard</label>
+                    <label><input type="checkbox"> Sends me a dirct message</label>
+                    <label><input type="checkbox"> Publishes a project</label>
+                    <label><input type="checkbox"> Requests to join one of my teams</label>
+                    <label><input type="checkbox"> Requests that I join their teams</label>
+                    <label><input type="checkbox"> Requests that I add their project to one of my teams</label>
+
+                </div>
+            </div>
+
+
+            <div class="section">
+                <p><strong>Newsletters</strong><span style="font-style: italic;"> I would like to receive:</span></p>
+                <div class="checkbox-group">
+                    <label><input type="checkbox"> Announcements and special offers(Rarely)</label>
+                </div>
+            </div>
+
+
+            <div class="section">
+                <p><strong>Adobe Live</strong><span style="font-style: italic;"> I would like to recieve:</span></p>
+                <div class="checkbox-group">
+                    <label><input type="checkbox"> Notifications about upcoming live evnts in English language
+                    </label>
+                    <label><input type="checkbox"> Notifications about upcoming live evnts in French
+                        language</label>
+                    <label><input type="checkbox"> Notifications about upcoming live evnts in German
+                        language</label>
+                </div>
+            </div>
+
+            <div class="section">
+                <p><strong>Jobs</strong><span style="font-style: italic;"> Email me immediately when someone:</span></p>
+                <div class="checkbox-group">
+                    <label><input type="checkbox"> Applies for a job
+                    </label>
+                </div>
+            </div>
+
+
+            <h1>Desktop Notification</h1>
+            <div class="section">
+                <p><strong>Daily Creative Challenge Notifications</strong> <span style="font-style: italic;">Receive a
+                        notification via Creative
+                        Cloud
+                        desktop for the launch of:</span></p>
+                <div class="checkbox-group">
+                    <label><input type="checkbox"> Future Adobe Photoshop challenges</label>
+                    <label><input type="checkbox"> Future Adobe XD challenges</label>
+                    <label><input type="checkbox"> Future Adobe Illustrator challenges</label>
+                    <label><input type="checkbox"> Future Adobe Photoshop challenges(in German)</label>
+                </div>
+            </div>
+
+            <h1>Delete Account</h1>
+            <div class="section">
+                <p>This account contains <strong>0 projects and drafts</strong>. Deleting your
+                    account will
+                    remove all
+                    content.</p>
+                <a href="#" class="delete-button">I want to delete my account</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <h3><img src="C:\Users\jeffrey\Documents\VS Codes\Admin Notification\FT Logo 2 1.png">FairTrust
+                </h3>
+                <p>
+                    Powerful freelance marketplace system with ability to change the lives
+                    (Freelancers &
+                    Clients).
+                </p>
+                <p>Call Us:</p>
+                <p>+91 9845897198</p>
+                <p>Email: fairtrust@gmail.com</p>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4>Freelancer</h4>
+                    <ul>
+                        <li>Categories</li>
+                        <li>Projects</li>
+                        <li>Freelancers</li>
+                        <li>Enterprise</li>
+                        <li>Membership</li>
+                        <li>Project Management</li>
+                        <li>Local jobs</li>
+                        <li>Photo Anywhere</li>
+                        <li>ShowCase</li>
+                        <li>API for developers</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>About</h4>
+                    <ul>
+                        <li>About Us</li>
+                        <li>How It Works</li>
+                        <li>Security</li>
+                        <li>Investor</li>
+                        <li>Sitemap</li>
+                        <li>Stories</li>
+                        <li>News</li>
+                        <li>Team</li>
+                        <li>Awars></li>
+                        <li>Press Release</li>
+                        <li>careers</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Terms</h4>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Terms and Conditions</li>
+                        <li>Copyright Policy</li>
+                        <li>Fee and Charges</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 FairTrust. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

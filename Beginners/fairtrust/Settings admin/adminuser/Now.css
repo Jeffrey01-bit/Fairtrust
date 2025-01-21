@@ -1,0 +1,22 @@
+.first {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  background-color: red;
+  height: 50px;
+  width: 100%;
+}
+.profilepic {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+.Picname {
+  position: absolute;
+  left: 60px;
+}
+.search {
+  position: absolute;
+  top: 15px;
+  left: 400px;
+}
