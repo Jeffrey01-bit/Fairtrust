@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="barchart.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="third.css">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="C:\Users\jeffrey\Documents\VS Codes\Admin Profile\Pics\Group 14582626.png" alt="Band Logo"
+                class="logo">
+        </div>
+
+        <nav>
+            <ul class="top">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Plans</a></li>
+                <li><a href="#">Help</a></li>
+                <li><button class="btn">Back to Homepage</button></li>
+                <li><a href="#"><img
+                            src="C:\Users\jeffrey\Documents\VS Codes\Admin Profile\Pics\Notification icon.png"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="side-main">
+            <aside class="sidebar">
+
+                <ul class="menu">
+                    <li class="active">Dashboard</li>
+                    <li>Users</li>
+                    <li>jobs</li>
+                    <li>Content moderation</li>
+                    <li>Notification</li>
+                    <li>Report</li>
+                    <li>Settings</li>
+                </ul>
+            </aside>
+
+            <div class="main">
+                <div class="dashboard">
+                    <!-- My Cards Section -->
+                    <div class="my-cards">
+                        <div class="section-header">
+                            <h2>My Cards</h2>
+                            <a href="#" class="see-all">See All</a>
+                        </div>
+                        <div class="cards">
+                            <!-- Card 1 -->
+                            <div class="card card-green">
+                                <div class="card-header">
+                                    <p>Balance</p>
+                                    <h3>$5,756</h3>
+                                    <div class="card-icon"></div>
+                                </div>
+                                <div class="card-body">
+                                    <p><strong>Card Holder:</strong> Eddy Cusuma</p>
+                                    <p><strong>Valid Thru:</strong> 12/26</p>
+                                </div>
+                                <div class="card-footer">
+                                    <p>3778 **** **** 1234</p>
+                                    <div class="payment-icon"></div>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="card card-blue">
+                                <div class="card-header">
+                                    <p>Balance</p>
+                                    <h3>$5,756</h3>
+                                    <div class="card-icon"></div>
+                                </div>
+                                <div class="card-body">
+                                    <p><strong>Card Holder:</strong> Eddy Cusuma</p>
+                                    <p><strong>Valid Thru:</strong> 12/26</p>
+                                </div>
+                                <div class="card-footer">
+                                    <p>3778 **** **** 1234</p>
+                                    <div class="payment-icon"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recent Transactions Section -->
+                    <div class="recent-transactions">
+                        <h2>Recent Transactions</h2>
+                        <ul>
+                            <li>
+                                <img class="transaction-icon deposit"
+                                    src="C:\Users\jeffrey\Documents\VS Codes\Admin Dashboard\Pics\1.png" alt="">
+                                <div class="transaction-details">
+                                    <p>Deposit from my Card</p>
+                                    <span>28 January 2021</span>
+                                </div>
+                                <div class="transaction-amount negative">-$850</div>
+                            </li>
+                            <li>
+
+                                <img class="transaction-icon paypal"
+                                    src="C:\Users\jeffrey\Documents\VS Codes\Admin Dashboard\Pics\deposit.png" alt="">
+                                <div class="transaction-details">
+                                    <p>Deposit Paypal</p>
+                                    <span>25 January 2021</span>
+                                </div>
+                                <div class="transaction-amount positive">+$2,500</div>
+                            </li>
+                            <li>
+                                <img class="transaction-icon user"
+                                    src="C:\Users\jeffrey\Documents\VS Codes\Admin Dashboard\Pics\jemi.png" alt="">
+                                <div class="transaction-details">
+                                    <p>Jemi Wilson</p>
+                                    <span>21 January 2021</span>
+                                </div>
+                                <div class="transaction-amount positive">+$5,400</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Barchart-->
+                <div class="second">
+
+                    <div class="chart-container">
+                        <div class="chart-header">
+                            <h2>Weekly Activity</h2>
+                        </div>
+                        <div class="chart">
+                            <div class="y-axis">
+                                <span>500</span>
+                                <span>400</span>
+                                <span>300</span>
+                                <span>200</span>
+                                <span>100</span>
+                                <span>0</span>
+                            </div>
+
+                            <div class="combine">
+                                <div class="bar" style="--bar-height: 170px;" data-height="350">
+
+                                    <div class="bar-label">January</div>
+                                </div>
+                                <div class="bar deposit" style="--bar-height: 90px;" data-height="250">
+
+                                    <div class="bar-label">February</div>
+                                </div>
+                            </div>
+                            <div class="combine">
+                                <div class="bar" style="--bar-height: 120px;" data-height="400">
+
+                                    <div class="bar-label">March</div>
+                                </div>
+                                <div class="bar deposit" style="--bar-height: 70px;" data-height="300">
+
+                                    <div class="bar-label">April</div>
+                                </div>
+                            </div>
+                            <div class="combine">
+                                <div class="bar" style="--bar-height: 200px;" data-height="500">
+
+                                    <div class="bar-label">May</div>
+                                </div>
+                                <div class="bar deposit" style="--bar-height: 150px;" data-height="200">
+
+                                    <div class="bar-label">June</div>
+                                </div>
+                            </div>
+                            <div class="combine">
+                                <div class="bar" style="--bar-height: 50px;" data-height="450">
+
+                                    <div class="bar-label">May</div>
+                                </div>
+                                <div class="bar deposit" style="--bar-height: 100px;" data-height="350">
+
+                                    <div class="bar-label">June</div>
+                                </div>
+                            </div>
+                            <div class="combine">
+                                <div class="bar" style="--bar-height: 140px;" data-height="450">
+
+                                    <div class="bar-label">May</div>
+                                </div>
+                                <div class="bar deposit" style="--bar-height: 80px;" data-height="350">
+
+                                    <div class="bar-label">June</div>
+                                </div>
+                            </div>
+                            <div class="combine">
+                                <div class="bar" style="--bar-height: 60px;" data-height="450">
+
+                                    <div class="bar-label">May</div>
+                                </div>
+                                <div class="bar deposit" style="--bar-height: 180px;" data-height="350">
+
+                                    <div class="bar-label">June</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", () => {
+                            const chart = document.querySelector(".chart");
+                            setTimeout(() => {
+                                chart.classList.add("loaded");
+                            }, 100);
+                        });
+                    </script>
+                    <div class="piechart">
+                        <h1>Expense Statistics</h1>
+                        <img src="C:\Users\jeffrey\Documents\VS Codes\Admin Dashboard\Pics\Piechart.png" alt="">
+                    </div>
+                </div>
+
+                <!--third-->
+
+                <div class="third">
+                    <div class="quick-transfer">
+                        <h2>Quick Transfer</h2>
+                        <div class="profile-list">
+                            <div class="profile">
+                                <img src="C:\Users\jeffrey\Documents\VS Codes\Admin Dashboard\Pics\Livia Bator.png"
+                                    alt="Livia">
+                                <span>Livia Bator</span>
+                                <span class="role">CEO</span>
+                            </div>
+                            <div class="profile">
+                                <img src="C:\Users\jeffrey\Documents\VS Codes\Admin Dashboard\Pics\Randy Press.png"
+                                    alt="Randy">
+                                <span>Randy Press</span>
+                                <span class="role">Director</span>
+                            </div>
+                            <div class="profile">
+                                <img src="C:\Users\jeffrey\Documents\VS Codes\Admin Dashboard\Pics\Workman.png"
+                                    alt="Workman">
+                                <span>Workman</span>
+                                <span class="role">Designer</span>
+                            </div>
+                            <div class="profile">
+                                <img src="C:\Users\jeffrey\Documents\VS Codes\Admin Dashboard\Pics\Workman.png"
+                                    alt="Workman">
+                                <span>Sarvs</span>
+                                <span class="role">Share Holder</span>
+                            </div>
+                            <div class="profile">
+                                <img src="C:\Users\jeffrey\Documents\VS Codes\Admin Dashboard\Pics\Livia Bator.png"
+                                    alt="Workman">
+                                <span>Workman</span>
+                                <span class="role">Designer</span>
+                            </div>
+                        </div>
+                        <div class="transfer">
+                            <input type="text" placeholder="Write Amount" value="525.50">
+                            <button>Send</button>
+                        </div>
+                    </div>
+                    <div class="balance-history">
+                        <h2>Balance History</h2>
+                        <div class="chart">
+                            <svg width="100%" height="100%" viewBox="0 0 900 200">
+                                <path d="M0,150 C150,100 300,50 450,120 C600,190 750,80 900,160" fill="none"
+                                    stroke="#00c08b" stroke-width="2"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <h3><img src="C:\Users\jeffrey\Documents\VS Codes\Admin Profile\Pics\FT Logo 2 1.png">FairTrust</h3>
+                    <p>
+                        Powerful freelance marketplace system with ability to change the lives (Freelancers & Clients).
+                    </p>
+                    <p>Call Us:</p>
+                    <p>+91 9845897198</p>
+                    <p>Email: fairtrust@gmail.com</p>
+                </div>
+                <div class="footer-links">
+                    <div>
+                        <h4>Freelancer</h4>
+                        <ul>
+                            <li>Categories</li>
+                            <li>Projects</li>
+                            <li>Freelancers</li>
+                            <li>Enterprise</li>
+                            <li>Membership</li>
+                            <li>Project Management</li>
+                            <li>Local jobs</li>
+                            <li>Photo Anywhere</li>
+                            <li>ShowCase</li>
+                            <li>API for developers</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>About</h4>
+                        <ul>
+                            <li>About Us</li>
+                            <li>How It Works</li>
+                            <li>Security</li>
+                            <li>Investor</li>
+                            <li>Sitemap</li>
+                            <li>Stories</li>
+                            <li>News</li>
+                            <li>Team</li>
+                            <li>Awars></li>
+                            <li>Press Release</li>
+                            <li>careers</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Terms</h4>
+                        <ul>
+                            <li>Privacy Policy</li>
+                            <li>Terms and Conditions</li>
+                            <li>Copyright Policy</li>
+                            <li>Fee and Charges</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 FairTrust. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+</body>

@@ -1,0 +1,87 @@
+.second {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chart-container {
+  min-width: 730px;
+  background: #fff;
+  padding: 40px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.combine {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.chart-header {
+  margin-bottom: 20px;
+}
+
+.chart-header h2 {
+  margin: 0;
+  color: #333;
+}
+
+.chart {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-left: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+}
+
+.y-axis {
+  top: 0;
+  left: -30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  font-size: 12px;
+  color: #000000;
+}
+
+.bar {
+  width: 20px;
+  background-color: #5ee6a8;
+  border-radius: 20px 20px 0 0;
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 0;
+  transition: height 1.5s ease-in-out;
+}
+
+.bar.deposit {
+  background-color: #47a78b;
+}
+
+.bar-label {
+  margin-top: 10px;
+  font-size: 8px;
+  color: #333;
+}
+
+.chart .bar[data-height] {
+  height: 0;
+}
+
+.chart.loaded .bar[data-height] {
+  height: var(--bar-height);
+}
